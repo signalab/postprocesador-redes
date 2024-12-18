@@ -27,6 +27,11 @@ Aunque el software para ejecutar los cuadernos de código, [Jupter Notebook](htt
 ### Librerías y dependencias de Python
 Para instalar las dependencias requeridas, cada [cuaderno de código](cuadernos/) contiene una primera celda que debe ejecutarse al inicio para asegurar la correcta instalación de las librerías y herramientas necesarias para replicar el funcionamiento del código.
 
+### Mapas de regiones (en progreso)
+El cuaderno para procesar datos de Meta Ad Library permite, en sus últimas celdas, desplegar un mapa coroplético sobre el porcentaje de anuncios segmentados por región en un país en los datos cargados, con [mapas base en formato geojson](anexos/mapas). Para coincidir con las clave que utiliza Meta al nombrar regiones, se han adaptado las propiedades de `name` en los mapas obtenidos de las siguientes fuentes:
+* us-states ([PublicaMundi](https://github.com/PublicaMundi/MappingAPI/blob/master/data/geojson/us-states.json))
+* mx-states ([strotgen](https://github.com/strotgen/mexico-leaflet/))
+* es-ccaa ([codeforgermany](https://github.com/codeforgermany/click_that_hood/blob/main/public/data/spain-communities.geojson))
 
 ## Licencia
 El código y contenidos de este repositorio están publicados como software libre bajo la [Licencia MIT](LICENSE).
