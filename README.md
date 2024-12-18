@@ -7,8 +7,8 @@ Cuadernos de código abierto diseñados para limpiar, procesar y hacer un análi
 
 
 ## Cuadernos
-- **Cuaderno YouTube:** Limpieza y depuración de texto. (Jupyter Notebook / Google Colab)
-- **Cuaderno Meta AdLibrary:** Limpieza y depuración de texto. (Jupyter Notebook / Google Colab)
+- **Cuaderno YouTube:** Limpieza y depuración de texto. ([Jupyter Notebook](https://github.com/signalab/postprocesador-redes/blob/main/cuadernos/postprocesador_redes_YouTube_VideoList_ChannelList_02.ipynb) / [Google Colab](https://colab.research.google.com/drive/1wTG7nXV1kKzBbrd2HYgDEhfn3_cWaI-l?usp=sharing))
+- **Cuaderno Meta AdLibrary:** Limpieza y depuración de texto. ([Jupyter Notebook](https://github.com/signalab/postprocesador-redes/blob/main/cuadernos/postprocesador_redes_Meta_AdLibrary_01.ipynb) / [Google Colab](https://colab.research.google.com/drive/1JrLWap26ZgCRszko5badkdumY77dC798?usp=sharing))
 
 Para profundizar más en las posibilidades de análisis semántico, con *embeddings* y técnicas establecidas de NLP, te recomendamos explorar los cuadernos del proyecto de Signa_Lab ITESO [`generador-embeddings`](https://github.com/signalab/generador-embeddings).
 
@@ -25,7 +25,7 @@ El código desarrollado y contenido en los cuadernos de este repositorio requier
 Aunque el software para ejecutar los cuadernos de código, [Jupter Notebook](https://jupyter.org/install), puede ser instalado de manera individual, se recomienda hacer la instalación completa de la paquetería contenida en [Anaconda](https://www.anaconda.com/download) que, además de Jupyter Notebook, incluye una gran cantidad de las librerías de software libre requeridas para la ejecución del código en los cuadernos de este repositorio. Su instalación es gratuita y compatible con sistemas operativos de Windows, macOS y Linux.
 
 ### Librerías y dependencias de Python
-Para instalar las dependencias requeridas, cada **[cuaderno de código](cuadernos/)** contiene una primera celda que debe ejecutarse al inicio para asegurar la correcta instalación de las librerías y herramientas necesarias para replicar el funcionamiento del código.
+Para instalar las dependencias requeridas, cada [cuaderno de código](cuadernos/) contiene una primera celda que debe ejecutarse al inicio para asegurar la correcta instalación de las librerías y herramientas necesarias para replicar el funcionamiento del código.
 
 
 ## Licencia
